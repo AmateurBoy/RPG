@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 024c79064d2c9342c8385b85c81005f2, type: 3}
+  m_Name: DA_RunMap_Default
+  m_EditorClassIdentifier: TestedField.Runtime::TestedField.RunMapData
+  StartZone: {fileID: 11400000, guid: 7113e55c06a4865ee8a49f1e1e465d59, type: 2}
+  Links:
+  - FromZone: {fileID: 11400000, guid: 7113e55c06a4865ee8a49f1e1e465d59, type: 2}
+    FromPassage: Exit_East
+    ToZone: {fileID: 11400000, guid: d264c4cdf7e08052c8f98a942daff20a, type: 2}
+    ToPassage: Entrance
+    UnlockCondition: 0
+  - FromZone: {fileID: 11400000, guid: 7113e55c06a4865ee8a49f1e1e465d59, type: 2}
+    FromPassage: Exit_North
+    ToZone: {fileID: 11400000, guid: 8a322297faecef1b4b277fefc2a35865, type: 2}
+    ToPassage: Entrance
+    UnlockCondition: 0
+  - FromZone: {fileID: 11400000, guid: 7113e55c06a4865ee8a49f1e1e465d59, type: 2}
+    FromPassage: Exit_West
+    ToZone: {fileID: 11400000, guid: 8fd31967a69ec4855961c7cfc8fac9fe, type: 2}
+    ToPassage: Entrance
+    UnlockCondition: 1
+  PassageGatePrefab: {fileID: 6220805300266974887, guid: e988e879d1f53369b8a777b00a0846be, type: 3}

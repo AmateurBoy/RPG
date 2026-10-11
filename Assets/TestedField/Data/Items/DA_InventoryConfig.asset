@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e72312d7b564f0f85f9d88546913d9, type: 3}
+  m_Name: DA_InventoryConfig
+  m_EditorClassIdentifier: TestedField.Runtime::TestedField.InventoryConfig
+  ItemDatabase: {fileID: 11400000, guid: c477c86a2c9741609b6c113b1206f0af, type: 2}
+  Capacity: 12
+  StartingItems:
+  - Sword
+  - Staff
+  StartingEquipment:
+  - SlotId: Armor
+    ItemId: LeatherArmor

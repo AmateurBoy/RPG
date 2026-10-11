@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bc7f7bb1dcab8ad0bbb1e70b88b0eec, type: 3}
+  m_Name: DA_BossAttack_Brute_Stomp
+  m_EditorClassIdentifier: TestedField.Runtime::TestedField.BossAttack
+  AttackId: Stomp
+  Shape: 1
+  UseRange: 3
+  HitDistance: 0
+  HitRadius: 3.5
+  Damage: 25
+  Windup: 1
+  Recovery: 1
+  Weight: 1
+  MinPhase: 2
