@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30c162fda8535dde8a79b066cdd6a30, type: 3}
+  m_Name: GameAssets
+  m_EditorClassIdentifier: TestedField.Runtime::TestedField.GameAssets
+  Materials:
+  - {fileID: 2100000, guid: 7d6d162450b45f685b8ca933b0d984b5, type: 2}
+  - {fileID: 2100000, guid: 296f18fb2a04f0d7e9cbee1cab2743f8, type: 2}
+  - {fileID: 2100000, guid: 3e44a63c8fd39f9cebaef720ae14f514, type: 2}
+  - {fileID: 2100000, guid: 28275cbfe7d6dd74c9cb5840cf676ee2, type: 2}
+  - {fileID: 2100000, guid: 8480016e1169e7520a5ef742de14a37a, type: 2}
+  - {fileID: 2100000, guid: 9f0fb0aba8ed1e9ee89a664d72c31fdf, type: 2}
+  - {fileID: 2100000, guid: 4009f5f8fcc33e282bd45d662205fbb8, type: 2}
+  - {fileID: 2100000, guid: cea25b87e1e0072998a8e28f6a070a30, type: 2}
+  - {fileID: 2100000, guid: 518fa87b7851e0456ab5b1537201f9c5, type: 2}
+  - {fileID: 2100000, guid: be2d12ef211fbeba187a870dfa4d231c, type: 2}
+  - {fileID: 2100000, guid: 15e7688827ac240048cae0c378d96c31, type: 2}
+  - {fileID: 2100000, guid: 37971d33a6595db538b138485cb5cc33, type: 2}
+  - {fileID: 2100000, guid: eb3984453813bf0819901fcd96360f21, type: 2}
+  - {fileID: 2100000, guid: 1acf72e811d2ae81888dbe71279baa20, type: 2}
+  - {fileID: 2100000, guid: 1eb888e08a7ae6a2091c201a34dde1f6, type: 2}
+  - {fileID: 2100000, guid: 552be93c1650f229e964c768e084c399, type: 2}
+  - {fileID: 2100000, guid: 85e83caa81f05d69f8d90bb800a510f1, type: 2}
+  - {fileID: 2100000, guid: 073a4a24f57e586038777f0d7603917f, type: 2}
+  - {fileID: 2100000, guid: 92065c1aa9c54339c9cf3eeeaa3815c1, type: 2}
+  - {fileID: 2100000, guid: cfa252598bd02929ea67584cef067c5f, type: 2}
+  - {fileID: 2100000, guid: ebacb552b67468ad7a18db99c32fae8b, type: 2}
+  - {fileID: 2100000, guid: 4c032c66a43e5a9d9a7d72e0949b7cdb, type: 2}
+  - {fileID: 2100000, guid: df5dc22a6fb8dec1f939079d8b7f1e00, type: 2}
+  - {fileID: 2100000, guid: 1ed1594c7583cbc82a4d0c10f053056e, type: 2}
+  - {fileID: 2100000, guid: 97505c3a51df441bf9f0b30d8ea02b5e, type: 2}
+  - {fileID: 2100000, guid: e9d6a2e16a32cdfe993e8d2d0f6e7929, type: 2}
+  - {fileID: 2100000, guid: 7e400a0e71f932e94a0debb770558821, type: 2}
+  - {fileID: 2100000, guid: 15127ca21f4bf663bb6f6f14a7d69334, type: 2}
+  - {fileID: 2100000, guid: 981ac35b91da5173788dff5555032669, type: 2}
+  - {fileID: 2100000, guid: e239d4728ede9c6369582dc5404e2579, type: 2}
+  - {fileID: 2100000, guid: b611a16cf76540c8a86d8978d0489884, type: 2}
+  - {fileID: 2100000, guid: 862a4d99c9b7f0e69954a078d51cbf4f, type: 2}
+  - {fileID: 2100000, guid: f6e3edc8b018410d282b747f15008a71, type: 2}
+  - {fileID: 2100000, guid: 36c19cc94642fb95ab9b4207f2d7c3c6, type: 2}
+  - {fileID: 2100000, guid: d806302bfce1deaa58dca4f404448732, type: 2}
+  - {fileID: 2100000, guid: c5d957dcf14c795cca45fe9a88162a23, type: 2}
+  - {fileID: 2100000, guid: b115825860cb74630871edf0c39bbaa5, type: 2}
+  - {fileID: 2100000, guid: 9d6b66f69dae3e46ca3f7c63e778bfba, type: 2}
+  HitFlashMaterial: {fileID: 2100000, guid: df07abec38efff308b3671ec0d2abf69, type: 2}
+  TelegraphMaterial: {fileID: 2100000, guid: f6e3edc8b018410d282b747f15008a71, type: 2}
+  HitSound: {fileID: 0}
+  ItemDatabase: {fileID: 11400000, guid: c477c86a2c9741609b6c113b1206f0af, type: 2}
+  SkillConfig: {fileID: 11400000, guid: 44a4ca5aca349fc35be78b47d6980fe7, type: 2}
+  HeroPrefab: {fileID: 5313735295391778026, guid: 7790d4f88f10f480da0371aea3659584, type: 3}
+  LootPickupPrefab: {fileID: 5205607975841727084, guid: a9342fb95c454a4d784830327e32a6d5, type: 3}
+  ChestPrefab: {fileID: 1352380412285821946, guid: 528f13d33829cdcd3bec42f0c1e8f164, type: 3}
+  SkillProjectilePrefab: {fileID: 2904274211496830324, guid: 069294c7b02dd263ba0796adbe2f9bf7, type: 3}

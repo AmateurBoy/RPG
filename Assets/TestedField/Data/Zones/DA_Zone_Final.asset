@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4a5ba316e1cfaddfaafe8998420304b, type: 3}
+  m_Name: DA_Zone_Final
+  m_EditorClassIdentifier: TestedField.Runtime::TestedField.ZoneData
+  ZoneId: Final
+  DisplayName: "\u0424\u0438\u043D\u0430\u043B"
+  Layouts:
+  - {fileID: 11400000, guid: f97549d681d46774e8f5aa169969a353, type: 2}
+  FillRules:
+  - {fileID: 11400000, guid: e882c3bc3b39b667d8fb185d94a0724c, type: 2}
+  BossPrefabs:
+  - {fileID: 1243455048187905748, guid: 4c7d1fad3d79d6f12ae8f8f37301cc6a, type: 3}
+  IsFinalZone: 1

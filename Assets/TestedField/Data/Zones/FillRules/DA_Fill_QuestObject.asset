@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4feade27708cac089ac66ec637ecf06b, type: 3}
+  m_Name: DA_Fill_QuestObject
+  m_EditorClassIdentifier: TestedField.Runtime::TestedField.SlotFillRule
+  SlotType: QuestObject
+  MinCount: 1
+  MaxCount: 1
+  Contents:
+  - Prefab: {fileID: 2097285878356198702, guid: fb7df3059638e37b69280ad17bf73437, type: 3}
+    Weight: 1

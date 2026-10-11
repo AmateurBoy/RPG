@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 060b55b76f623f5a197273b11a13023e, type: 3}
+  m_Name: Layout_A_01
+  m_EditorClassIdentifier: TestedField.Runtime::TestedField.ZoneLayout
+  CellSize: 4
+  Rects:
+  - x: 0
+    y: 0
+    width: 2
+    height: 1
+  - x: 2
+    y: -5
+    width: 11
+    height: 11
+  FloorMaterial: Dirt
+  WallMaterial: StoneMossy
+  WallHeight: 2.2
+  WallThickness: 0.4
+  Passages:
+  - PassageId: Entrance
+    Cell: {x: 0, y: 0}
+    Side: 3
+  Slots:
+  - SlotType: BossArena
+    Position: {x: 38, y: 0, z: 10}
+    Radius: 8
+  - SlotType: POI
+    Position: {x: 16, y: 0, z: -14}
+    Radius: 2
+  - SlotType: POI
+    Position: {x: 44, y: 0, z: -14}
+    Radius: 2
+  - SlotType: POI
+    Position: {x: 16, y: 0, z: 18}
+    Radius: 2
+  - SlotType: NpcCamp
+    Position: {x: 28, y: 0, z: -6}
+    Radius: 3
+  - SlotType: DungeonEntrance
+    Position: {x: 46, y: 0, z: -4}
+    Radius: 2.5
+  - SlotType: QuestObject
+    Position: {x: 24, y: 0, z: 6}
+    Radius: 1.5
+  - SlotType: QuestObject
+    Position: {x: 12, y: 0, z: -4}
+    Radius: 1.5
+  Props: []

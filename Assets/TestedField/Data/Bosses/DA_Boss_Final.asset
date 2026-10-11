@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad1d3909ffd33f9199dca2a2f78098ca, type: 3}
+  m_Name: DA_Boss_Final
+  m_EditorClassIdentifier: TestedField.Runtime::TestedField.BossData
+  MaxHealth: 1500
+  KnockbackSpeed: 0
+  PatrolSpeed: 2
+  ChaseSpeed: 3.2
+  PatrolRadius: 0
+  PatrolWaitTime: 1
+  DetectionRadius: 0
+  LoseTargetRadius: 30
+  LeashRadius: 100
+  ThinkInterval: 0.2
+  AttackDamage: 0
+  AttackRange: 2.6
+  AttackHitDistance: 0
+  AttackHitRadius: 0
+  AttackWindup: 1
+  AttackRecovery: 1
+  AttackCooldown: 1.2
+  CorpseLifetime: 5
+  BodyMaterial: {fileID: 2100000, guid: 15127ca21f4bf663bb6f6f14a7d69334, type: 2}
+  LootTable: {fileID: 11400000, guid: eebb984d525fc2b23956270d5199009b, type: 2}
+  DisplayName: "\u0424\u0438\u043D\u0430\u043B\u044C\u043D\u044B\u0439 \u0431\u043E\u0441\u0441"
+  VisualScale: 2.2
+  EnragedMaterial: {fileID: 0}
+  Attacks:
+  - {fileID: 11400000, guid: 8d1c42a842f190d3fa78d6c23226f8da, type: 2}
+  - {fileID: 11400000, guid: 034887d482cc9d10b93adeec665d5070, type: 2}
+  - {fileID: 11400000, guid: 4b65d4626afa0b446837cd2162435d31, type: 2}
+  - {fileID: 11400000, guid: 9d84476366296cae3bc14c79a76d718a, type: 2}
+  - {fileID: 11400000, guid: 18b2288206d98a5e89aa99f5bd3510f3, type: 2}
+  PhaseHealthThresholds:
+  - 0.75
+  - 0.5
+  - 0.25
+  PhaseSpeedMultipliers:
+  - 1
+  - 1.1
+  - 1.2
+  - 1.35
+  PhaseDamageMultipliers:
+  - 1
+  - 1.1
+  - 1.2
+  - 1.35
+  PlayerCountHealthMultipliers:
+  - 1
+  - 1
+  - 1
+  - 1
+  PlayerCountDamageMultipliers:
+  - 1
+  - 1
+  - 1
+  - 1
